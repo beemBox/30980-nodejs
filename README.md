@@ -15,4 +15,7 @@
     <img ng-if="!isSvg &amp;&amp; isImg" class="" ng-prop-src="icon" src="https://res.cloudinary.com/hdsqazxtw/image/upload/f_auto,q_auto/w_88/v1624901995/cj4pds1lawxav2nyxkig.png">
   </a>
 </div>
+<hr />
+
 ## Índice
+
