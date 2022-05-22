@@ -8,9 +8,7 @@
     </h1>
   </strong>
   <p>
-    I will take you on a deep dive into
-    React Hooks, and show you what you need to know to start using them in your
-    applications right away.
+    Curso de back-end con nodejs
   </p>
 
   <a href="https://www.coderhouse.com/online/programacion-backend">
