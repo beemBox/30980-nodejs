@@ -1,7 +1,7 @@
 import express from 'express'
 const router = express.Router()
 
-let mascotas = []
+let productos = []
 
 router.get('/', (req, res) => {
   res.json(personas)
