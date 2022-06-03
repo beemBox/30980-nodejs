@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Escuadra",
+    "price": 123.45,
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+    "id": 1
+  },
+  {
+    "title": "Calculadora",
+    "price": 234.56,
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png",
+    "id": 2
+  },
+  {
+    "title": "Globo Terráqueo",
+    "price": 345.67,
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+    "id": 3
+  },
+  {
+    "title": "Bolígrfo",
+    "price": 299.99,
+    "thumbnail": "none",
+    "id": 4
+  },
+  {
+    "title": "Lápiz",
+    "price": 29.99,
+    "thumbnail": "none",
+    "id": 5
+  },
+  {
+    "title": "Marcador",
+    "price": 700.49,
+    "thumbnail": "none",
+    "id": 6
+  }
+]
