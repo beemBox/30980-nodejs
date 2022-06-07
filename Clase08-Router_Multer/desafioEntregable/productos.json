@@ -34,5 +34,23 @@
     "price": 700.49,
     "thumbnail": "none",
     "id": 6
+  },
+  {
+    "title": "Cuaderno",
+    "price": 150.49,
+    "thumbnail": "none",
+    "id": 7
+  },
+  {
+    "title": "Regla",
+    "price": 150.49,
+    "thumbnail": "none",
+    "id": 8
+  },
+  {
+    "title": "Un prod",
+    "price": "123",
+    "thumbnail": "",
+    "id": 9
   }
 ]

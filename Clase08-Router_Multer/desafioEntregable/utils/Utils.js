@@ -6,7 +6,7 @@
 export default class Utils {
   static error(msg, err, showStack) {
     console.log(`\x1b[41m\x1b[31m Error: ${msg}${(showStack && ('\n\n ' + err.stack))} \x1b[0m`)
-    return new Error(msg)
+    return { error: msg }
   }
 
   static log(msg) {
@@ -15,6 +15,7 @@ export default class Utils {
 
   static success(msg) {
     console.log(`\x1b[37m\x1b[0m✔️  ${msg} \x1b[0m`)
+    return msg
   }
 
   static msg(msg) {
