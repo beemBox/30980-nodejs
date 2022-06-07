@@ -17,7 +17,7 @@
  ** Probar el ingreso de datos mediante los formularios y con Postman
  ** Verificar los datos cargados en cada caso.
 */
-
+//! index.js va llamando los routes de los archivos de rutas según los request que hagan los clientes.
 import express from 'express'
 import mascotasRoute from './routes/mascotas.js'
 import personasRoute from './routes/personas.js'
@@ -27,15 +27,19 @@ import personasRoute from './routes/personas.js'
 const app = express()
 const PORT = process.env.PORT || 8080
 
+//! Importa el orden en que ponemos los middlewares
+//? Primero los middleware (fijarse el orden)
+//? los routes van al final
 app.use(express.json()) //* para que el servidor entienda el formato json. Lo que hace es parsear a json lo que envía el usuario.
 app.use(express.urlencoded({ extended: true })) //! urlencoded es para recibir los datos por urlencode
+
 app.use(express.static('public')) //* con este middleware designamos la carpeta publica para que sea accesible desde el cliente.
 
 app.use('/mascotas', mascotasRoute) //* Acá definimos el path de la ruta de mascotas
 app.use('/personas', personasRoute) //* Defino el path de la ruta para los endpoints de personas
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html') //* Para enviar un archivo público, directamente usamos __dirname ruta raíz + la ruta del file dentro de la 
+  res.sendFile(__dirname + '/public/index.html') //* Para enviar un archivo público, lo hacemos a través de res.sendFile que recibe __dirname ruta raíz + la ruta del file dentro de la 
   //* carpeta definida como accesible para el cliente con express.static
 })
 

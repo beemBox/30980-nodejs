@@ -8,9 +8,9 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-  const { nombre, raza, edad } = req.body
-  mascotas.push({ nombre, raza, edad })
-  res.json(personas)
+  const { nombre, apellido, edad } = req.body
+  mascotas.push({ nombre, apellido, edad })
+  res.json(mascotas)
 })
 
 export default router;
