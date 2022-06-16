@@ -1,0 +1,20 @@
+{
+  "name": "desafiogenerico02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "watch": "./node_modules/.bin/tsc -w",
+    "dev": "./node_modules/.bin/ts-node index.ts",
+    
+    "rundev": "(./node_modules/.bin/tsc -w) && nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.7.3"
+  }
+}
