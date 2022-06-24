@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "timestamp": 1656042445,
+    "nombre": "Escuadra",
+    "descripcion": "Una descripción de escuadra",
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+    "precio": 123.45,
+    "stock": 100
+  },
+  {
+    "id": 2,
+    "timestamp": 1656042445,
+    "nombre": "Calculadora",
+    "descripcion": "una desc de Calculadora",
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png",
+    "precio": 234.56,
+    "stock": 200
+  },
+  {
+    "id": 3,
+    "nombre": "Globo Terráqueo",
+    "descripcion": "Nada, un globo terráqueo",
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+    "precio": 345.67,
+    "stock": 50
+  },
+  {
+    "id": 4,
+    "nombre": "Bolígrfo",
+    "descripcion": "Lapiceras BIC",
+    "foto": "none",
+    "precio": 299.99,
+    "stock": 500
+  },
+  {
+    "id": 5,
+    "nombre": "Lápiz",
+    "descripcion": "Lápices faber castell",
+    "foto": "none",
+    "precio": 29.99,
+    "stock": 1500
+  },
+  {
+    "id": 6,
+    "nombre": "Marcador Sakjura",
+    "descripcion": "Marcadores Sakura de 2cm",
+    "foto": "none",
+    "precio": 700.49,
+    "stock": 60
+  },
+  {
+    "id": 7,
+    "nombre": "Cuaderno",
+    "descripcion": "Cuadernos para dibujo gramaje 120",
+    "foto": "none",
+    "precio": 150.49,
+    "stock": 150
+  },
+  {
+    "id": 8,
+    "nombre": "Regla",
+    "descripcion": "Regla Pizzini de 30 cm",
+    "foto": "none",
+    "precio": 150.49,
+    "stock": 400
+  },
+  {
+    "nombre": "Compás",
+    "precio": 123.45,
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+    "descripcion": "La descripción de un compás",
+    "stock": 150,
+    "timestamp": 1656034529681,
+    "id": 9
+  }
+]
